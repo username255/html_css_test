@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+p {
+text-shadow: 1px 1px 2px #999;
+box-shadow: 1px 1px 2px #999;
+opacity: 1;
+margin-left:10%;
+font-size:42px;
+min-width: 1032px;
+width: 1032px;
+max-width: 1032px;
+}
+a.foo {
+padding: 5px 10px;
+background-color: #9c3;
+-moz-transition: background.3s ease, color 0.2s linear;
+transition: background.3s ease, color 0.2s linear;
+}
+a.foo:hover, a.foo:focus {
+color: #030;
+background-color: #690;
+}
+pre#x a{
+padding: 5px 15px;
+color: white;
+background-color:royalblue;
+opacity:.25;
+}
+pre#x a:hover {
+	color: yellow;
+	opacity:.6;
+	}
+ul.gallery li {
+	float: left;
+	margin: 0 10px;
+	padding: 10px;
+	border: 1px solid #ddd;
+	list-style:none;
+}
+ul.gallery li a img {
+	float: left;
+	width: 50px;
+}
+ul.gallery li a:hover img {
+	transform:scale(1.75) translate(1px,-4px); <!--rotate(-10deg);-->
+	transform-origin:bottom left;
+	box-shadow:4px 4px 10px rgba(0,0,0,.5);
+	transition: transform 0.2s ease-in-out;
+}
+</style>
+</head>
+
+<nav>
+<pre id="x"style=font-family:apercu>
+<a href="#"style=color:white>News</a><a href="#">Things</a><a href="#">Stuff</a><a href="#">Junk</a><a href="#">About</a>
+</pre>
+</nav>
+
+<header style=color:rgba(19,19,19,0.75);>
+<p>xyu</p>
+</header>
+
+<body>
+<a href="#" class="foo">Transition me!</a>
+
+<ul class="gallery">
+<li><a href="#"><img src="photo-1.jpg" /></a></li>
+<li><a href="#"><img src="photo-2.jpg" /></a></li>
+<li><a href="#"><img src="photo-3.jpg" /></a></li>
+</ul>
+</body>
+<br>
+<footer>
+<pre>
+xyu
+</pre>
+</footer>
+
+</html>
